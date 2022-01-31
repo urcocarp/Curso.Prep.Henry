@@ -1,0 +1,13 @@
+*'variable es una expresion es una expresion que resuelve a un numero' por ejempl si yo digo que var numero es igual a 10 la consola va a resolver que la variable es igual a 10 
+ejempl
+var numero = 10
+numero
+10
+numero + 2
+12
+*expresiones strings son expresiones que resuelven un strings
+por ejempl
+'hola' + 'soy urco'
+hola soy urco
+*if no se retorna a nada no se convierte pero si indica una condicion
+
