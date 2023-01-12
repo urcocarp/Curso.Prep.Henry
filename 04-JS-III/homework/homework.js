@@ -110,13 +110,12 @@ function numeroMasGrande(numeros) {
   // "numeros" debe ser una matriz de enteros (int/integers)
   // Devuelve el número más grande
   // Tu código:
-  var maximo = numeros[0]
-  for (let i = 0; i < numeros.length; i++) {
-   if (numeros [i]> maximo){
-    maximo= numeros [i]
-   }
-  }
-  return maximo;
+  var acc = 0;
+ for (i = 0; i < numeros.length; i++){
+  if (numeros[i] > acc)
+  acc = numeros[i];
+ }
+ return acc
 }
 
 
